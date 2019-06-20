@@ -12,7 +12,6 @@ function destructivelyPrependKitten (name) {
   kittens.unshift(name)
   return kittens
   
-  
 }
 
 console.log(destructivelyPrependKitten('Ralph'))
