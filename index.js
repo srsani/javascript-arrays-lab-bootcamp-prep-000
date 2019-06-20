@@ -24,6 +24,13 @@ function destructivelyRemoveFirstKitten (name) {
   return kittens
 }
 
+
+function destructivelyAppendKitten (name) {
+  kittens[kittens.length] = name
+  return kittens
+}
+
+
 console.log(destructivelyRemoveFirstKitten())
 var kittens = ["Milo", "Otis", "Garfield"];
 console.log(kittens)
