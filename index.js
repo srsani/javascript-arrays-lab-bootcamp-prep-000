@@ -10,5 +10,4 @@ function destructivelyAppendKitten (name) {
 
 console.log(destructivelyAppendKitten('Ralph'))
 var kittens = ["Milo", "Otis", "Garfield"];
-
 console.log(kittens)
