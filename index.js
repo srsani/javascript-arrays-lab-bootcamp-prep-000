@@ -30,6 +30,11 @@ function appendKitten (name) {
   return kittents_ver2
 }
 
+function appendKitten (name) {
+  var kittents_ver2 = kittens.concat(name)
+  return kittents_ver2
+}
+
 
 console.log(appendKitten('test'))
 var kittens = ["Milo", "Otis", "Garfield"];
