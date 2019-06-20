@@ -45,7 +45,3 @@ function removeFirstKitten () {
   return kittents_ver2
 }
 
-
-console.log(removeLastKitten())
-var kittens = ["Milo", "Otis", "Garfield"];
-console.log(kittens)
