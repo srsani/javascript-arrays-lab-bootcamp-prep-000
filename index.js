@@ -8,7 +8,7 @@ function destructivelyAppendKitten (name) {
   return kittens
 }
 
-function destructivelyAppendKitten (name) {
+function destructivelyPrependKitten (name) {
   kittens[kittens.length] = name
   return kittens
   
