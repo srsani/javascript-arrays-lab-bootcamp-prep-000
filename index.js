@@ -40,8 +40,8 @@ function removeLastKitten () {
   return kittents_ver2
 }
 
-function removeLastKitten () {
-  var kittents_ver2 = kittens.slice(0, kittens.length-1)
+function removeFirstKitten () {
+  var kittents_ver2 = kittens.slice(1, kittens.length)
   return kittents_ver2
 }
 
