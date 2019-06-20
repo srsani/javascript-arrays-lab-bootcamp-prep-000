@@ -35,6 +35,11 @@ function prependKitten (name) {
   return kittents_ver2
 }
 
+function prependKitten (name) {
+  var kittents_ver2 = [name, ...kittens ]
+  return kittents_ver2
+}
+
 
 console.log(prependKitten('test'))
 var kittens = ["Milo", "Otis", "Garfield"];
