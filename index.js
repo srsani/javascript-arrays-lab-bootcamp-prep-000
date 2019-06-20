@@ -31,6 +31,6 @@ function appendKitten (name) {
 }
 
 
-console.log(destructivelyRemoveFirstKitten())
+console.log(appendKitten())
 // var kittens = ["Milo", "Otis", "Garfield"];
 console.log(kittens)
