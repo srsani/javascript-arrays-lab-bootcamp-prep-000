@@ -40,6 +40,11 @@ function removeLastKitten () {
   return kittents_ver2
 }
 
+function removeLastKitten () {
+  var kittents_ver2 = kittens.slice(0, kittens.length-1)
+  return kittents_ver2
+}
+
 
 console.log(removeLastKitten())
 var kittens = ["Milo", "Otis", "Garfield"];
