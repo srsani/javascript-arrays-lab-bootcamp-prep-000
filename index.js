@@ -41,6 +41,6 @@ function removeLastKitten () {
 }
 
 
-console.log(prependKitten('test'))
+console.log(removeLastKitten())
 var kittens = ["Milo", "Otis", "Garfield"];
 console.log(kittens)
