@@ -8,6 +8,13 @@ function destructivelyAppendKitten (name) {
   return kittens
 }
 
+function destructivelyAppendKitten (name) {
+  kittens[kittens.length] = name
+  return kittens
+  
+  
+}
+
 console.log(destructivelyAppendKitten('Ralph'))
 var kittens = ["Milo", "Otis", "Garfield"];
 console.log(kittens)
