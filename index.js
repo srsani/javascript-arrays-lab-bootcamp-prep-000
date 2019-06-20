@@ -30,7 +30,7 @@ function appendKitten (name) {
   return kittents_ver2
 }
 
-function appendKitten (name) {
+function prependKitten (name) {
   var kittents_ver2 = kittens.concat(name)
   return kittents_ver2
 }
