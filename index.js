@@ -24,6 +24,6 @@ function destructivelyRemoveFirstKitten (name) {
   return kittens
 }
 
-console.log(destructivelyRemoveLastKitten())
+console.log(destructivelyRemoveFirstKitten())
 var kittens = ["Milo", "Otis", "Garfield"];
 console.log(kittens)
