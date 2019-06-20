@@ -14,6 +14,12 @@ function destructivelyPrependKitten (name) {
   
 }
 
+function destructivelyPrependKitten (name) {
+  kittens.unshift(name)
+  return kittens
+  
+}
+
 console.log(destructivelyPrependKitten('Ralph'))
 var kittens = ["Milo", "Otis", "Garfield"];
 console.log(kittens)
