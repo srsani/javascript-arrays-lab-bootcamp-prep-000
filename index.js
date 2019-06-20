@@ -9,8 +9,7 @@ function destructivelyAppendKitten (name) {
 }
 
 function destructivelyPrependKitten (name) {
-  kittens[kittens.length] = name
-  return kittens
+  return kittens.shift(name)
   
   
 }
