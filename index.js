@@ -14,6 +14,6 @@ function destructivelyPrependKitten (name) {
   
 }
 
-console.log(destructivelyAppendKitten('Ralph'))
+console.log(destructivelyPrependKitten('Ralph'))
 var kittens = ["Milo", "Otis", "Garfield"];
 console.log(kittens)
