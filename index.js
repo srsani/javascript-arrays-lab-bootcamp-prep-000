@@ -36,6 +36,6 @@ function appendKitten (name) {
 }
 
 
-console.log(appendKitten('test'))
+console.log(prependKitten('test'))
 var kittens = ["Milo", "Otis", "Garfield"];
 console.log(kittens)
