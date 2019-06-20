@@ -20,6 +20,6 @@ function destructivelyRemoveLastKitten (name) {
   
 }
 
-console.log(destructivelyPrependKitten('Ralph'))
+console.log(destructivelyRemoveLastKitten())
 var kittens = ["Milo", "Otis", "Garfield"];
 console.log(kittens)
